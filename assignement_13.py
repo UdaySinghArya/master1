@@ -1,0 +1,66 @@
+#Program-1-
+'''
+a=["java","Python","SQL","C"]
+print(a)
+'''
+#Program-2-
+'''
+a=[]
+print(type(a))
+'''
+#Program-3-
+'''
+mylist=["java","c","python"]
+print(mylist[2])
+'''
+#Program-4-
+'''
+l1=["java","sql","C","reactive","javascript","python"] 
+l1[1]="nosql"
+l1[3]="flutter"
+print(l1)
+'''
+#program5-
+'''
+l1=["java","c","reactiveness","sql"]
+l1.append("python")
+print(l1)
+'''
+#Program-6-
+'''
+l1=["java","c","reactiveness","sql"]
+l2=["uday","singh"]
+l1.append(l2)
+print(l1)
+'''
+#Program-7-
+'''
+i=0
+l1=["java","c","reactiveness","sql"]
+for x in l1:
+    print(l1[i])
+    i=i+1
+'''
+#Program-8-
+'''
+l2=[]
+l1=["java","c","reactiveness","sql"]
+for x in l1:
+    for y in x:
+        l2.append(y)
+l2.sort()
+print(l2)
+'''
+#Program-9-
+'''
+l1=[]
+for x in range(1,4):
+    l1.append(input())
+print(l1)
+'''
+#Program-10-
+a=12345
+l1=[]
+for x in str(a):
+    l1.append(x)
+print(l1)
