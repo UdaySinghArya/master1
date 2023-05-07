@@ -23,7 +23,6 @@ def main():
     score=0
     words=["FATHER","BREAK","COUNTRY","INDIA"]
     words=random.sample(words,k=len(words))
-    print(words)
 
     for word in words:
         score=printPuzzleQusetion(word,score)
